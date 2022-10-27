@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cs361recursion;
+package com.factfib.project;
 
 /**
  * @author cscharff

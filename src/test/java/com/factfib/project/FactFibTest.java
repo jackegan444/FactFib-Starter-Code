@@ -14,6 +14,12 @@ public class FactFibTest {
    @Test
    public void factorialTest()
    {
-    assertEquals(Factorial.factorial(2)), 2;
+    assertEquals(2, Factorial.factorial(2));
+   }
+   
+   @Test
+   public void fibonacciTest()
+   {
+    assertEquals(1, Fibonacci.fibonacci(2));
    }
 }

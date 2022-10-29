@@ -1,10 +1,7 @@
-/**
- * 
- */
 package com.factfib.project;
 
 /**
- * @author cscharff
+ * @author cscharff, jegan
  *
  */
 public class Factorial {
@@ -14,5 +11,8 @@ public class Factorial {
 	 * @param n  
 	 * @return the factorial of n 
 	 */
-	public static int factorial(int n) {return -1;}
+	public static int factorial(int n) {
+		// TODO
+		return -1;
+	}
 }

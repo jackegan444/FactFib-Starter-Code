@@ -1,10 +1,7 @@
-/**
- * 
- */
 package com.factfib.project;
 
 /**
- * @author cscharff
+ * @author cscharff, jegan
  *
  */
 public class Fibonacci {
@@ -15,5 +12,8 @@ public class Fibonacci {
 	 * @param n
 	 * @return the fibonacci of n
 	 */
-	public static int fibonacci(int n) {return -1;}
+	public static int fibonacci(int n) {
+		// TODO
+		return -1;
+	}
 }

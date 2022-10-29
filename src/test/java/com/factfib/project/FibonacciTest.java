@@ -19,10 +19,10 @@ public class FibonacciTest {
             assertEquals(FIRST_FIB_NUMS[i], Fibonacci.fibonacci(i));
         }
 
-        assertEquals(6765, Fibonacci.fibonacci(20));
-        assertEquals(832040, Fibonacci.fibonacci(30));
-        assertEquals(102334155, Fibonacci.fibonacci(40));
-        assertEquals(1134903170, Fibonacci.fibonacci(45));
+        assertEquals(10946, Fibonacci.fibonacci(20));
+        assertEquals(1346269, Fibonacci.fibonacci(30));
+        assertEquals(165580141, Fibonacci.fibonacci(40));
+        assertEquals(1836311903, Fibonacci.fibonacci(45));
 
     }
 
@@ -36,3 +36,4 @@ public class FibonacciTest {
      }
 
 }
+

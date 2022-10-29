@@ -26,9 +26,9 @@ public class FactorialTest {
    public void whenInvalidInputExpectIllegalArgumentException() {
       assertThrows(IllegalArgumentException.class, ()->{Factorial.factorial(-100);});
       assertThrows(IllegalArgumentException.class, ()->{Factorial.factorial(-1);});
-      assertThrows(IllegalArgumentException.class, ()->{Factorial.factorial(0);});
       assertThrows(IllegalArgumentException.class, ()->{Factorial.factorial(13);});
       assertThrows(IllegalArgumentException.class, ()->{Factorial.factorial(100);});
   
    }
 }
+
